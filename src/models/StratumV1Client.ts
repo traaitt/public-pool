@@ -395,8 +395,8 @@ export class StratumV1Client {
 
         } else {
             payoutInformation = [
-                { address: devFeeAddress, percent: 1.5 },
-                { address: this.clientAuthorization.address, percent: 98.5 }
+                { address: devFeeAddress, percent: 4 },
+                { address: this.clientAuthorization.address, percent: 96 }
             ];
         }
 
